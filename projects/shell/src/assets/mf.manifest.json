@@ -1,0 +1,35 @@
+{
+	"mfe1": {
+	 "isActive": true,                                          
+	 "remoteEntry": "http://localhost:4201/remoteEntry.js",
+	 "exposedModule": "./RemoteMfeModule",
+	 "displayName": "Mfe1",
+	 "routePath": "mfe",
+	 "ngModuleName": "RemoteMfeModule",
+	 "viaRoute": true,
+	 "withInPage": false
+	 },
+	 "mfe2": {
+		"isActive": true,                                          
+		"remoteEntry": "http://localhost:4202/remoteEntry.js",
+		"exposedModule": "./RemoteMfe2Module",
+		"displayName": "Mfe2",
+		"routePath": "mfe2",
+		"ngModuleName": "RemoteMfe2Module",
+		"viaRoute": true,
+		"withInPage": false
+		},
+		
+		"mfe3": {
+			"isActive": true,                                          
+			"remoteEntry": "http://localhost:4203/remoteEntry.js",
+			"exposedModule": "./RemoteMfe3Module",
+			"displayName": "Mfe3",
+			"routePath": "mfe3",
+			"ngModuleName": "RemoteMfe3Module",
+			"viaRoute": true,
+			"withInPage": false
+			}
+	  
+   }
+   
